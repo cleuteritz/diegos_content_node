@@ -26,17 +26,17 @@ http.createServer(function (req, res) {
         case '/index.html':
             serveStaticFile(res, '/public/index.html', 'text/html');
             break;
-        case '/css/home_pg.css':
-            serveStaticFile(res, '/public/css/home_pg.css', 'text/css');
+        case '/CSS/home_pg.css':
+            serveStaticFile(res, '/public/CSS/home_pg.css', 'text/css');
             break;
-        case '/css/about_me.css':
-            serveStaticFile(res, '/public/css/about_me.css', 'text/css');
+        case '/CSS/about_me.css':
+            serveStaticFile(res, '/public/CSS/about_me.css', 'text/css');
             break;
-        case '/css/contact_me.css':
-            serveStaticFile(res, '/public/css/contact_me.css', 'text/css');
+        case '/CSS/contact_me.css':
+            serveStaticFile(res, '/public/CSS/contact_me.css', 'text/css');
             break;
-        case '/css/portfolio.css':
-            serveStaticFile(res, '/public/css/portfolio.css', 'text/css');
+        case '/CSS/portfolio.css':
+            serveStaticFile(res, '/public/CSS/portfolio.css', 'text/css');
             break;
         case '/images/alfred.jpg':
             serveStaticFile(res, '/public/images/alfred.jpg', 'img/jpg');
